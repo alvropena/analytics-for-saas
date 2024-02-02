@@ -1,5 +1,5 @@
 import Footer from '@/components/footer'
-import Header from '@/components/header'
+import { Header } from '@/components/header'
 import React from 'react'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
@@ -9,6 +9,7 @@ import Image from 'next/image'
 export default function Page() {
   return (
     <div>
+      <Header />
     <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32 bg-green-500 text-white">
           <div className="container px-4 md:px-6">
